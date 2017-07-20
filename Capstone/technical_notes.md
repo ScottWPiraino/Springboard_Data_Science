@@ -20,4 +20,8 @@ As the target variable for the job location, I use the state in which the job oc
   
 ## Model evaluation  
   
-I evaluate the model in terms of accuracy score (i.e. proportion of predicts for which the predicted class equals the true class). I evaluate the model using five-fold stratified cross validation, and additionally test the informativeness of the classifier by permuting the labels (i.e. job locations) to generate a null distribution of the accuracy score.
+I evaluate the model in terms of accuracy score (i.e. proportion of predicts for which the predicted class equals the true class). I evaluate the model using five-fold stratified cross validation, and additionally test the informativeness of the classifier by permuting the labels (i.e. job locations) to generate a null distribution of the accuracy score.  
+  
+## Analysis code  
+  
+The code I used to perform the analysis, along with a description of the results, is [here](https://github.com/ScottWPiraino/Springboard_Data_Science/blob/master/Capstone/capstone_job_analysis_v5.ipynb)
